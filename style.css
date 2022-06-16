@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url("./Norse-Bold.otf");
+}
+
+.main {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+}
+
+.pic {
+    background-image: url("./house.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 45vw;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 17vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-family: norse-bold;
+    font-size: 10vh;
+    margin-top: 20px;
+}
+
+#credit{
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: 82vh;
+}
+
+.right{
+    width: 65vw;
+    padding-left: 3vw;
+    background-color: #efc8b1;
+}
+
+.sign-up{
+    font-weight: 500;
+    width: 70%;
+    font-size: 1.2rem;
+    color: #514644;
+    margin-top: 15vh;
+}
+
+.signup-form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 7vh;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+input{
+    background-color:antiquewhite;
+    border: 1px solid #514644;
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #abd1ff;
+}
+
+
+button{
+    background-color: #0f4d19;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: #0f4d19;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+button:hover{
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+.log-in{
+    display: flex;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #0f4d19;
+    font-weight: 700;
+}
+
+a:hover{
+    color: beige;
+}
